@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="LoginTitle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/colorLighterBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="LoginSubTitle" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/colorLighterBlack</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="LoginButtonText" parent="TextAppearance.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="ToolbarTitle" parent= "TextAppearance.MaterialComponents.Body1">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorLighterBlack</item>
+    </style>
+
+    <style name="PhotoImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="PhotoItemText" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/colorLighterBlack</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="LoginEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/login_edit_text_selector</item>
+        <item name="boxBackgroundColor">@color/colorLightGrey</item>
+        <item name="hintTextColor">@color/colorAccent</item>
+
+    </style>
+
+</resources>

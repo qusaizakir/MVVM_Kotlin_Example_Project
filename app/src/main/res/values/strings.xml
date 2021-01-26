@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Example Project</string>
+
+    //Login Screen
+    <string name="welcome_title">Welcome Back</string>
+    <string name="welcome_subtitle">Log in to your account</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Log in</string>
+    <string name="empty_error_dialog_title">Login failed</string>
+    <string name="empty_error_dialog_content">Email and password cannot be empty</string>
+    <string name="empty_error_dialog_ok">OK</string>
+    <string name="photo_title">Photos</string>
+</resources>
